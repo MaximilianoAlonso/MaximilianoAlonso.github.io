@@ -100,6 +100,9 @@ width: 70%;
 input{
     padding: 5px;
     margin: 10px;
+    border: none;
+    border-radius: 20px;
+  
 }
 footer section h3{
     width: 100%;
@@ -107,4 +110,36 @@ footer section h3{
     height: 50px;
     text-align: center;
     line-height: 50px;
+}
+.mostrar{
+display: none;
+}
+
+.mostrarmas{
+display: block;
+
+}
+button{
+margin-left: 50px;
+    background-color: rgb(195, 140, 247);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+button:hover{
+    border: 2px white solid;
+    padding: 8px 28px;
+    color: black;
+}
+.boton{
+    margin: 0;
+    margin-top: 10px;
+}
+
+main i{
+    color: rgb(248, 150, 30);
 }
