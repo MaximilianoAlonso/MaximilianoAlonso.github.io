@@ -122,8 +122,9 @@ display: none;
 display: block;
 
 }
-button{
-margin-left: 50px;
+.masinfo{
+    margin-left: 50px;
+    text-align: center;
     background-color: rgb(195, 140, 247);
     border: none;
     padding: 10px 30px;
@@ -133,7 +134,7 @@ margin-left: 50px;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-button:hover{
+.masinfo:hover{
     border: 2px white solid;
     padding: 8px 28px;
     color: black;
